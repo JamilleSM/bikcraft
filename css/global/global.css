@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  height: 600px;
   color: #111111;
 }
 
@@ -29,7 +28,9 @@ h2,
 h3,
 h4,
 ul,
+li,
 p,
-blockquote {
+blockquote,
+a {
   margin: 0px;
 }

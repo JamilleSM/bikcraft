@@ -15,10 +15,19 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   color: var(--cor-0);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
 }
 
 .botao:hover {
   background: var(--cor-p2);
+}
+
+.botao.secundario {
+  background-color: var(--cor-10);
+}
+
+.botao.secundario:hover {
+  background-color: var(--cor-9);
 }
 
 @media (max-width: 600px) {
@@ -49,5 +58,27 @@
 @media (max-width: 800px) {
   .link {
     font: 500 1rem/1 "Poppins", sans-serif;
+  }
+}
+
+.titulo-bg {
+  background-color: var(--cor-11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo p {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
   }
 }
