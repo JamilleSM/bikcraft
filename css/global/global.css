@@ -4,7 +4,8 @@ body {
   color: #111111;
 }
 
-ul {
+ul,
+li {
   margin: 0px;
   list-style: none;
 }
@@ -27,8 +28,6 @@ h1,
 h2,
 h3,
 h4,
-ul,
-li,
 p,
 blockquote,
 a {
