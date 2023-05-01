@@ -16,6 +16,8 @@
   color: var(--cor-0);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover {
@@ -28,6 +30,20 @@
 
 .botao.secundario:hover {
   background-color: var(--cor-9);
+}
+
+.botao.seta::after {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../img/icones/seta.svg");
+  transition: transform 0.2s;
+}
+
+.botao.seta:hover::after {
+  transform: translateX(4px);
 }
 
 @media (max-width: 600px) {
@@ -65,6 +81,10 @@
   background-color: var(--cor-11);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.titulo {
+  background: url("../../img/dec/deco.svg") no-repeat top right 20px;
 }
 
 .titulo p {
