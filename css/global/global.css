@@ -6,7 +6,10 @@ body {
 
 ul,
 li {
+<<<<<<< HEAD
   padding: 0px;
+=======
+>>>>>>> 46e63f70d248988b718ca216462a94bf1a083a3d
   margin: 0px;
   list-style: none;
 }
